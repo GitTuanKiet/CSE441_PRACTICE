@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.thuchanh03"
+    namespace = "com.example.ex03"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.thuchanh03"
-        minSdk = 24
+        applicationId = "com.example.ex03"
+        minSdk = 34
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -35,9 +35,9 @@ dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation(libs.activity)
+    implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation ("com.android.volley:volley:1.2.1")
-    implementation ("com.google.code.gson:gson:2.9.0")
 }
