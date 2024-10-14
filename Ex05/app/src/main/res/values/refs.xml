@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="vietnam">1</drawable>
+    <drawable name="usa">2</drawable>
+    <drawable name="canada">3</drawable>
+</resources>
