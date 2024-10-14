@@ -39,5 +39,6 @@ public class Country {
     }
 
     public int getName() {
+        return 0;
     }
 }
